@@ -23,11 +23,11 @@ Get-ESSCompanyConsumption -OathToken $Oath -Company "CompanyUserName"
 
 # Add email address to exclusion list
 ```
-Add-ESSExclusion -OauthToken $Oath-Company "CompanyUserName -User "Email@ToExclude.com"
+Add-ESSExclusion -OauthToken $Oath-Company "CompanyUserName" -User "Email@ToExclude.com"
 ```
 
 # Remove email address from exclusion list
 
 ```
-Remove-ESSExclusion -OauthToken $Oath-Company "CompanyUserName -User "Email@ToExclude.com"
+Remove-ESSExclusion -OauthToken $Oath-Company "CompanyUserName" -User "Email@ToExclude.com"
 ```
